@@ -1,0 +1,53 @@
+.post-img{
+    height: 474px;
+    overflow: hidden;
+    
+    background-color: rgb(249, 249, 205);
+}
+
+.post-img img{
+    width: 100%;
+}
+
+.blogpost-contact h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    font-weight: bolder;
+}
+.blogpost-contact p{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.row{
+    display: flex;
+}
+
+.more-post{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogpost-meta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-info{
+margin: 12px 0;
+}
+
+.author-info div{
+    padding: 4px 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.social{
+    align-self: center;
+    padding-right: 53px;
+    cursor: pointer;
+}
+
